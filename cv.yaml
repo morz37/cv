@@ -1,0 +1,50 @@
+Name: Ivan Morozov
+Email: morz37@mail.ru
+Location: Ivanovo,Russia
+LinkedIn: https://www.linkedin.com/in/ivan-morozov-211baa189
+
+Summary:
+  I have worked with different programming languages,
+  I am always ready to learn new development tools,
+  I never give up trivial tasks and am happy to solve complex ones.
+  Very sociable, responsive and sociable.
+
+Education:
+  - Ivanovo State Chemical and Technological University (ISCTU)
+    - Bachelor, Information Systems and Technologies
+
+Experience:
+  - Back End Developer, SberMegaMarket (October 2020)
+      - Responsibilities:
+      - Creating go microservices
+      - Supporting legacy projects on NodeJS
+      - Accomplishments:
+          - Support of old NodeJS projects
+          - Transition from old monolithic legacy projects to micro-service architecture
+          - Research of query plans and optimization of stored procedures and tables
+  - Back End Developer, Wildberries (July 2019 - October 2020 (1 year 4 months))
+      - Responsibilities:
+      - Creating go microservices
+      - Creating a service for charity (full stack)
+      - Accomplishments:
+          - Created a service for charity
+          - Created an application in the go language for receiving and processing customer order data via nats streaming
+  - Full Stack Developer, Local No-name Company (September 2018 - January 2019 (5 months))
+      - Responsibilities:
+      - Layout of web pages
+      - Creation of panels for site administration
+      - Accomplishments:
+          - Layout of web pages
+
+Skills:
+  - Programming languages: Golang, MSSQL, PostgresSQL
+  - Frameworks: NodeJS
+  - Tools: Kafka, Nats, Docker, CI/CD, K8S
+
+Projects:
+  - Go-microservices
+      - Description: Creating new services to get rid of monoliths
+      - Role: Developer
+  - Database
+      - Description: Writing a lot of functions and stored procedures, switching from mssql to pg
+      - Role: Developer
