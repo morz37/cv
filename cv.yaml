@@ -1,51 +1,59 @@
-Name: Ivan Morozov
-Email: morz37@mail.ru
-Location: Ivanovo,Russia
-LinkedIn: https://www.linkedin.com/in/ivan-morozov-211baa189
-Telegram: @morz37
+personal:
+  full_name: "Морозов Иван Сергеевич"
+  title: "Senior Golang Developer"
+  location: "Москва, Россия"
+  contacts:
+    email: "morz37@mail.ru"
+    telegram: "@morz37"
+    phone: "+7(999)730-97-87"
 
-Summary:
-  I have worked with different programming languages,
-  I am always ready to learn new development tools,
-  I never give up trivial tasks and am happy to solve complex ones.
-  Very sociable, responsive and sociable.
+experience:
+  - company: "Мегамаркет"
+    position: "Golang-разработчик"
+    period:
+      from: "2020-10"
+      to: "настоящее время"
 
-Education:
-  - Ivanovo State Chemical and Technological University (ISCTU)
-    - Bachelor, Information Systems and Technologies
+    business_tasks:
+      - "Миграция с монолита Node.js на микросервисную архитектуру на Go."
+      - "Поддержка и развитие крупного высоконагруженного монолита на Node.js."
+      - "Переезд с MSSQL на PostgreSQL без деградации SLA."
+      - "Интеграции с внешними командами и сервисами через API и Keycloak."
+      - "Разработка 2FA-аутентификации для личного кабинета мерчантов."
+      - "Участие в редизайне главной страницы в рамках перехода к микросервисам."
+      - "Реализация сервиса рейтинга продавцов."
+      - "Разработка механизма мультиаккаунтов с быстрым переключением между юрлицами."
 
-Experience:
-  - Back End Developer, SberMegaMarket (October 2020)
-      - Responsibilities:
-      - Creating go microservices
-      - Supporting legacy projects on NodeJS
-      - Accomplishments:
-          - Support of old NodeJS projects
-          - Transition from old monolithic legacy projects to micro-service architecture
-          - Research of query plans and optimization of stored procedures and tables
-  - Back End Developer, Wildberries (July 2019 - October 2020 (1 year 4 months))
-      - Responsibilities:
-      - Creating go microservices
-      - Creating a service for charity (full stack)
-      - Accomplishments:
-          - Created a service for charity
-          - Created an application in the go language for receiving and processing customer order data via nats streaming
-  - Full Stack Developer, Local No-name Company (September 2018 - January 2019 (5 months))
-      - Responsibilities:
-      - Layout of web pages
-      - Creation of panels for site administration
-      - Accomplishments:
-          - Layout of web pages
+    technical_tasks:
+      - "Проектирование event-driven взаимодействия через Kafka (init / regular / DLQ)."
+      - "Реализация ETL-процессов и cron-пайплайнов для массовых выгрузок данных."
+      - "Профилирование Go-приложений (CPU, Memory, Heap, Block) с использованием pprof."
+      - "Контейнеризация и деплой сервисов в Kubernetes."
+      - "Оптимизация SQL-запросов и работы БД."
+      - "Использование Redis и Memcached для снижения нагрузки на БД."
+      - "Работа с Elasticsearch: индексация, обновление и оптимизация запросов."
 
-Skills:
-  - Programming languages: Golang, MSSQL, PostgresSQL
-  - Frameworks: NodeJS
-  - Tools: Kafka, Nats, Docker, CI/CD, K8S
+  - company: "Wildberries"
+    position: "Golang-разработчик"
+    period:
+      from: "2019-05"
+      to: "2020-10"
 
-Projects:
-  - Go-microservices
-      - Description: Creating new services to get rid of monoliths
-      - Role: Developer
-  - Database
-      - Description: Writing a lot of functions and stored procedures, switching from mssql to pg
-      - Role: Developer
+    responsibilities:
+      - "Разработка и поддержка микросервисов на Golang и Node.js."
+      - "Работа с MS SQL, PostgreSQL, Kafka, Redis, NATS, Elasticsearch."
+      - "Создание сервисов внутренней отчётности и массовой обработки данных."
+      - "Исправление багов и сопровождение продакшн-систем."
+
+education:
+  degree: "Бакалавр"
+  university: "Ивановский государственный химико-технологический университет"
+  faculty: "ХТиК"
+  specialty: "ИСИТ"
+  graduation_year: 2019
+
+languages:
+  - name: "Русский"
+    level: "Родной"
+  - name: "Английский"
+    level: "B1 (Intermediate)"
